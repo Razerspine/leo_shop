@@ -12,5 +12,5 @@ gulp.task("less", function () {
 });
 
 gulp.task("watch", function () {
-   gulp.watch("css/**/*.less" ["less"])
+   gulp.watch("css/**/*.less", ["less"])
 });

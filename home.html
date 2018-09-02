@@ -6,6 +6,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="css/bootstrap/bootstrap-grid.css" type="text/css" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/script.js"></script>
     <title>LEO SHOP</title>
@@ -13,87 +14,112 @@
 <body class="b-page">
 <div class="b-page__header">
     <div class="b-header">
-        <div class="b-header__line">
-            <ul class="b-nav">
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link">Account</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link">Wishlist</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link">Checkout</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link">Log In</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link">Sing Up</a>
-                </li>
-            </ul>
-            <div class="b-line__item b-line_margin_right">Language:
-                <div class="b-line__item b-line__item_color js-btn-lang">
-                    English
-                    <span class="b-line__arrow">&#709;</span>
-                </div>
-                <div class="b-modal js-language">
-                    <a href="#" class="b-modal__item">Spanish</a>
-                    <a href="#" class="b-modal__item">French</a>
-                    <a href="#" class="b-modal__item">German</a>
-                </div>
-            </div>
-            <div class="b-line__item b-line_margin_right">Currency:
-                <div class="b-line__item b-line__item_color js-btn-cy">USD
-                    <span class="b-line__arrow">&#709;</span>
-                </div>
-                <div class="b-modal b-modal_width js-currency">
-                    <a href="#" class="b-modal__item">ESP</a>
-                    <a href="#" class="b-modal__item">BEF</a>
-                    <a href="#" class="b-modal__item">EUR</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 padding_none">
+                    <div class="b-header__line">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                    <div class="b-line__item b-line_margin_right">Language:
+                                        <div class="b-line__item b-line__item_color js-btn-lang">
+                                            English
+                                            <span class="b-line__arrow">&#709;</span>
+                                        </div>
+                                        <div class="b-modal js-language">
+                                            <a href="#" class="b-modal__item">Spanish</a>
+                                            <a href="#" class="b-modal__item">French</a>
+                                            <a href="#" class="b-modal__item">German</a>
+                                        </div>
+                                    </div>
+                                    <div class="b-line__item b-line_margin_right">Currency:
+                                        <div class="b-line__item b-line__item_color js-btn-cy">USD
+                                            <span class="b-line__arrow">&#709;</span>
+                                        </div>
+                                        <div class="b-modal js-currency">
+                                            <a href="#" class="b-modal__item">ESP</a>
+                                            <a href="#" class="b-modal__item">BEF</a>
+                                            <a href="#" class="b-modal__item">EUR</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                                    <ul class="b-nav">
+                                        <li class="b-nav__item">
+                                            <a href="#" class="b-nav__link">Account</a>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <span class="b-nav__string">|</span>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <a href="#" class="b-nav__link">Wishlist</a>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <span class="b-nav__string">|</span>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <a href="#" class="b-nav__link">Checkout</a>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <span class="b-nav__string">|</span>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <a href="#" class="b-nav__link">Log In</a>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <span class="b-nav__string">|</span>
+                                        </li>
+                                        <li class="b-nav__item">
+                                            <a href="#" class="b-nav__link">Sing Up</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="b-header__top-menu">
             <div class="b-top-menu">
-                <div class="b-top-menu__logo">LEO SHOP</div>
-                <div class="b-top-menu__nav-bar">
-                    <div class="b-nav-bar">
-                        <a href="#" class="b-nav-bar__link">HOME</a>
-                        <a href="#" class="b-nav-bar__link">WOMEN</a>
-                        <a href="#" class="b-nav-bar__link">MAN</a>
-                        <a href="#" class="b-nav-bar__link">OTHER</a>
-                        <a href="#" class="b-nav-bar__link">PURCHASE</a>
-                    </div>
-                </div>
-                <div class="b-top-menu__search">
-                    <form class="b-search" method="get" name="search" action="">
-                        <label>
-                            <input class="b-search__input" type="text" name="search" placeholder="Search..">
-                        </label>
-                        <label>
-                            <i class="fas fa-search"></i>
-                            <input class="b-search__button b-search__button_hidden" type="submit" name="send">
-                        </label>
-                    </form>
-                    <div class="b-top-menu__cart">
-                        <div class="b-cart">
-                            <i class="fas fa-tags"></i>
-                            <i class="fas fa-shopping-cart"></i>
-                            <span class="b-cart__item">CART
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                            <div class="b-top-menu__logo">LEO SHOP</div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                            <div class="b-top-menu__nav-bar">
+                                <div class="b-nav-bar">
+                                    <a href="#" class="b-nav-bar__link">HOME</a>
+                                    <a href="#" class="b-nav-bar__link">WOMEN</a>
+                                    <a href="#" class="b-nav-bar__link">MAN</a>
+                                    <a href="#" class="b-nav-bar__link">OTHER</a>
+                                    <a href="#" class="b-nav-bar__link">PURCHASE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                            <div class="b-top-menu__search">
+                                <form class="b-search" method="get" name="search" action="">
+                                    <label>
+                                        <input class="b-search__input" type="text" name="search" placeholder="Search..">
+                                    </label>
+                                    <label>
+                                        <i class="fas fa-search"></i>
+                                        <input class="b-search__button b-search__button_hidden" type="submit"
+                                               name="send">
+                                    </label>
+                                </form>
+                                <div class="b-top-menu__cart">
+                                    <div class="b-cart">
+                                        <i class="fas fa-tags"></i>
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span class="b-cart__item">CART
                                 <span class="b-cart__count">(0)</span>
                             </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,429 +128,475 @@
     </div>
 </div>
 <div class="b-page__content">
-    <div class="b-slider">
-        <div class="b-slider__content js-slide active" id="slide1">
-            <div class="b-slider__img">
-                <img src="images/banner_glasses.png" alt="glasses" class="b-img">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 padding_none">
+                <div class="b-slider">
+                    <div class="b-slider__content js-slide active" id="slide1">
+                        <div class="b-slider__img">
+                            <img src="images/banner_glasses.png" alt="glasses" class="b-img">
+                        </div>
+                        <div class="b-slider__item">
+                            <span class="b-text b-text_font_light">ALUMINUM CLUB</span>
+                            <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
+                        </div>
+                    </div>
+                    <div class="b-slider__content js-slide" id="slide2">
+                        <div class="b-slider__img">
+                            <img src="images/banner_glasses_2.png" alt="glasses" class="b-img">
+                        </div>
+                        <div class="b-slider__item">
+                            <span class="b-text b-text_font_light">TEXT 1</span>
+                            <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
+                        </div>
+                    </div>
+                    <div class="b-slider__content js-slide" id="slide3">
+                        <div class="b-slider__img">
+                            <img src="images/banner_glasses_3.png" alt="glasses" class="b-img">
+                        </div>
+                        <div class="b-slider__item">
+                            <span class="b-text b-text_font_light">TEXT 2</span>
+                            <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
+                        </div>
+                    </div>
+                    <div class="b-slider__content js-slide" id="slide4">
+                        <div class="b-slider__img">
+                            <img src="images/banner_glasses_4.png" alt="glasses" class="b-img">
+                        </div>
+                        <div class="b-slider__item">
+                            <span class="b-text b-text_font_light">TEXT 3</span>
+                            <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
+                        </div>
+                    </div>
+                    <div class="b-slider__content js-slide" id="slide5">
+                        <div class="b-slider__img">
+                            <img src="images/banner_glasses_5.png" alt="glasses" class="b-img">
+                        </div>
+                        <div class="b-slider__item">
+                            <span class="b-text b-text_font_light">TEXT 4</span>
+                            <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
+                        </div>
+                    </div>
+                    <div class="b-slider__button">
+                        <span class="b-button__prev js-btn_prev"><i class="fas fa-angle-left"></i></span>
+                        <span class="b-button__next js-btn_next"><i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="b-slider__button-index">
+                        <div class="b-button-index b-button-index_bg-color" data-slide="slide1"></div>
+                        <div class="b-button-index" data-slide="slide2"></div>
+                        <div class="b-button-index" data-slide="slide3"></div>
+                        <div class="b-button-index" data-slide="slide4"></div>
+                        <div class="b-button-index" data-slide="slide5"></div>
+                    </div>
+                </div>
             </div>
-            <div class="b-slider__item">
-                <span class="b-text b-text_font_light">ALUMINUM CLUB</span>
-                <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
-            </div>
-        </div>
-        <div class="b-slider__content js-slide" id="slide2">
-            <div class="b-slider__img">
-                <img src="images/banner_glasses_2.png" alt="glasses" class="b-img">
-            </div>
-            <div class="b-slider__item">
-                <span class="b-text b-text_font_light">TEXT 1</span>
-                <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
-            </div>
-        </div>
-        <div class="b-slider__content js-slide" id="slide3">
-            <div class="b-slider__img">
-                <img src="images/banner_glasses_3.png" alt="glasses" class="b-img">
-            </div>
-            <div class="b-slider__item">
-                <span class="b-text b-text_font_light">TEXT 2</span>
-                <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
-            </div>
-        </div>
-        <div class="b-slider__content js-slide" id="slide4">
-            <div class="b-slider__img">
-                <img src="images/banner_glasses_4.png" alt="glasses" class="b-img">
-            </div>
-            <div class="b-slider__item">
-                <span class="b-text b-text_font_light">TEXT 3</span>
-                <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
-            </div>
-        </div>
-        <div class="b-slider__content js-slide" id="slide5">
-            <div class="b-slider__img">
-                <img src="images/banner_glasses_5.png" alt="glasses" class="b-img">
-            </div>
-            <div class="b-slider__item">
-                <span class="b-text b-text_font_light">TEXT 4</span>
-                <span class="b-text b-text_font_bold">EXPERIENCE RAY-BAN</span>
-            </div>
-        </div>
-        <div class="b-slider__button">
-            <span class="b-button__prev js-btn_prev"><i class="fas fa-angle-left"></i></span>
-            <span class="b-button__next js-btn_next"><i class="fas fa-angle-right"></i></span>
-        </div>
-        <div class="b-slider__button-index">
-            <div class="b-button-index b-button-index_bg-color" data-slide="slide1"></div>
-            <div class="b-button-index" data-slide="slide2"></div>
-            <div class="b-button-index" data-slide="slide3"></div>
-            <div class="b-button-index" data-slide="slide4"></div>
-            <div class="b-button-index" data-slide="slide5"></div>
         </div>
     </div>
-    <div class="b-content">
-        <!--PRODUCT BLOCK-->
-        <div class="b-content__main">
-            <div class="b-main">
-                <h2 class="b-main__title">FEATURE PRODUCTS</h2>
-                <div class="b-main__item-row">
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_1.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Lorem Ipsum is simply.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">388.00</span>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 padding_none">
+                <div class="b-content">
+                    <div class="row">
+                        <!--PRODUCT BLOCK-->
+                        <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 padding_none">
+                            <div class="b-content__main">
+                                <div class="b-main">
+                                    <h2 class="b-main__title">FEATURE PRODUCTS</h2>
+                                    <div class="b-main__item-row">
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_1.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Lorem Ipsum is simply.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">388.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_2.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Nullam vestibulum.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">90.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__left-string">
+                                                    <span class="b-string">SALE</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_3.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Donec et lorem suscipit.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__sales">$</span><span
+                                                                class="b-text-item__sales-value">460.00</span>
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">300.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-main__item-row">
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_4.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Curabitur pretium dui.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">180.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_5.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Lorem Ispum is simply.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">278.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_6.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Sed tempus tellus.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">378.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="b-main__item-row">
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_7.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Lorem Ipsum is simply.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">500.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__left-string">
+                                                    <span class="b-string">SALE</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_8.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Etiam egestas velit.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__sales">$</span><span
+                                                                class="b-text-item__sales-value">460.00</span>
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">200.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_9.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Mausris viverra magna.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">370.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_2.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Nullam vestibulum.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">90.00</span>
+                                <div class="b-main">
+                                    <h2 class="b-main__title">STAFF PICK</h2>
+                                    <div class="b-main__item-row">
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_10.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Lorem Ipsum is simply.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">378.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_11.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Mauris viverra magna.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">278.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_12.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Curabitur pretium dui.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">188.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item b-main__item_no-margin">
-                        <div class="b-items">
-                            <div class="b-main__left-string">
-                                <span class="b-string">SALE</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_3.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Donec et lorem suscipit.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__sales">$</span><span class="b-text-item__sales-value">460.00</span>
-                                        <span class="b-text-item__cy">$</span><span class="b-text-item__value">300.00</span>
+                                <div class="b-main">
+                                    <h2 class="b-main__title">NEW PRODUCTS</h2>
+                                    <div class="b-main__item-row">
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_10.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Lorem Ipsum is simply.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">90.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_11.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Mauris viverra magna.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">60.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-main__item">
+                                            <div class="b-items">
+                                                <div class="b-main__right-string">
+                                                    <span class="b-string">NEW</span>
+                                                </div>
+                                                <div class="b-items__img">
+                                                    <img class="b-item-img" src="images/product/glasses_12.png"
+                                                         alt="glasses">
+                                                </div>
+                                                <div class="b-item__text">
+                                                    <div class="b-text-item__title">Curabitur pretium dui.
+                                                        <div class="b-text-section">
+                                                            <span class="b-text-item__cy">$</span><span
+                                                                class="b-text-item__value">378.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="b-items__cart">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="b-main__item-row">
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_4.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Curabitur pretium dui.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">180.00</span>
+                        <!--END PRODUCT BLOCK-->
+                        <div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 padding_none">
+                            <div class="b-content__aside">
+                                <div class="b-aside">
+                                    <div class="b-aside__top b-aside_margin_bottom">
+                                        <div class="b-tabs b-tabs_active" id="tab1">
+                                            <div class="b-tabs__title">FEATURED GLASS</div>
+                                            <div class="b-tabs__img">
+                                                <img class="b-tabs__content" src="images/tab_img_1.png" alt="girl">
+                                                <button class="b-tabs__button" type="submit" name="check">Check it Out
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="b-tabs" id="tab2">
+                                            <div class="b-tabs__title">MODEL GLASS</div>
+                                            <div class="b-tabs__img">
+                                                <img class="b-tabs__content" src="images/tab_img_2.png" alt="girl">
+                                                <button class="b-tabs__button" type="submit" name="check">Check it Out
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="b-tabs" id="tab3">
+                                            <div class="b-tabs__title">SPECIAL GLASS</div>
+                                            <div class="b-tabs__img">
+                                                <img class="b-tabs__content" src="images/tab_img_3.png" alt="girl">
+                                                <button class="b-tabs__button" type="submit" name="check">Check it Out
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="b-aside__button">
+                                            <div class="b-button js-active" data-tab="tab1"></div>
+                                            <div class="b-button" data-tab="tab2"></div>
+                                            <div class="b-button" data-tab="tab3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="b-aside__bottom">
+                                        <div class="b-aside-bottom">
+                                            <div class="b-aside-bottom__title">NEWSLETTERS SIGNUP</div>
+                                            <p class="b-aside-bottom__text">Lorem ipsum dolor sit amen, dolor imun ra
+                                                adlip</p>
+                                            <div class="b-aside-bottom__line"></div>
+                                            <form class="b-aside-bottom__form" method="get" name="subscribe" action=" ">
+                                                <label>
+                                                    <input class="b-aside-bottom__input" type="text" name="email">
+                                                </label>
+                                                <button class="b-aside-bottom__btn" type="submit" name="send">
+                                                    Subscribe
+                                                </button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_5.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Lorem Ispum is simply.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">278.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item b-main__item_no-margin">
-                        <div class="b-items">
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_6.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Sed tempus tellus.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span class="b-text-item__value">378.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="b-main__item-row">
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_7.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Lorem Ipsum is simply.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">500.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__left-string">
-                                <span class="b-string">SALE</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_8.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Etiam egestas velit.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__sales">$</span><span class="b-text-item__sales-value">460.00</span>
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">200.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item b-main__item_no-margin">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_9.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Mausris viverra magna.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span class="b-text-item__value">370.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="b-main">
-                <h2 class="b-main__title">STAFF PICK</h2>
-                <div class="b-main__item-row">
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_10.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Lorem Ipsum is simply.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">378.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_11.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Mauris viverra magna.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">278.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item b-main__item_no-margin">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_12.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Curabitur pretium dui.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span class="b-text-item__value">188.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="b-main">
-                <h2 class="b-main__title">NEW PRODUCTS</h2>
-                <div class="b-main__item-row">
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_10.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Lorem Ipsum is simply.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">90.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_11.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Mauris viverra magna.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span
-                                            class="b-text-item__value">60.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="b-main__item b-main__item_no-margin">
-                        <div class="b-items">
-                            <div class="b-main__right-string">
-                                <span class="b-string">NEW</span>
-                            </div>
-                            <div class="b-items__img">
-                                <img class="b-item-img" src="images/product/glasses_12.png" alt="glasses">
-                            </div>
-                            <div class="b-item__text">
-                                <div class="b-text-item__title">Curabitur pretium dui.
-                                    <div class="b-text-section">
-                                        <span class="b-text-item__cy">$</span><span class="b-text-item__value">378.00</span>
-                                    </div>
-                                </div>
-                                <div class="b-items__cart">
-                                    <i class="fas fa-shopping-basket"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END PRODUCT BLOCK-->
-        <div class="b-content__aside">
-            <div class="b-aside">
-                <div class="b-aside__top b-aside_margin_bottom">
-                    <div class="b-tabs b-tabs_active" id="tab1">
-                        <div class="b-tabs__title">FEATURED GLASS</div>
-                        <div class="b-tabs__img">
-                            <img class="b-tabs__content" src="images/tab_img_1.png" alt="girl">
-                            <button class="b-tabs__button" type="submit" name="check">Check it Out</button>
-                        </div>
-                    </div>
-                    <div class="b-tabs" id="tab2">
-                        <div class="b-tabs__title">MODEL GLASS</div>
-                        <div class="b-tabs__img">
-                            <img class="b-tabs__content" src="images/tab_img_2.png" alt="girl">
-                            <button class="b-tabs__button" type="submit" name="check">Check it Out</button>
-                        </div>
-                    </div>
-                    <div class="b-tabs" id="tab3">
-                        <div class="b-tabs__title">SPECIAL GLASS</div>
-                        <div class="b-tabs__img">
-                            <img class="b-tabs__content" src="images/tab_img_3.png" alt="girl">
-                            <button class="b-tabs__button" type="submit" name="check">Check it Out</button>
-                        </div>
-                    </div>
-                    <div class="b-aside__button">
-                        <div class="b-button js-active" data-tab="tab1"></div>
-                        <div class="b-button" data-tab="tab2"></div>
-                        <div class="b-button" data-tab="tab3"></div>
-                    </div>
-                </div>
-                <div class="b-aside__bottom">
-                    <div class="b-aside-bottom">
-                        <div class="b-aside-bottom__title">NEWSLETTERS  SIGNUP</div>
-                        <p class="b-aside-bottom__text">Lorem ipsum dolor sit amen, dolor imun ra adlip</p>
-                        <div class="b-aside-bottom__line"></div>
-                        <form class="b-aside-bottom__form" method="get" name="subscribe" action=" ">
-                            <label>
-                                <input class="b-aside-bottom__input" type="text" name="email">
-                            </label>
-                            <button class="b-aside-bottom__btn" type="submit" name="send">Subscribe</button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -535,147 +607,185 @@
     <div class="b-footer">
         <div class="b-footer__line">
             <div class="b-line-footer">
-                <div class="b-line-footer__item">
-                    <i class="fas fa-truck b-line-footer__icon"></i>
-                   <span class="b-line-footer__title">FREE SHIPPING ON ORDERS OVER $100</span>
-                </div>
-                <div class="b-line-footer__item">
-                    <i class="fas fa-phone b-line-footer__icon"></i>
-                    <span class="b-line-footer__title">CALL US! TOLL FREE- 409-8888-0099</span>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="b-line-footer__item">
+                                <i class="fas fa-truck b-line-footer__icon"></i>
+                                <span class="b-line-footer__title">FREE SHIPPING ON ORDERS OVER $100</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="b-line-footer__item">
+                                <i class="fas fa-phone b-line-footer__icon"></i>
+                                <span class="b-line-footer__title">CALL US! TOLL FREE- 409-8888-0099</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="b-footer__section">
             <div class="b-section-footer">
-                <div class="b-section-footer__item">
-                    <h2 class="b-section-footer__title">FACEBOOK</h2>
-                    <div class="b-section-footer__content">
-                        <h2 class="b-section-footer__title b-section-footer_font-family">20000 Members</h2>
-                        <span class="b-section-footer__btn-like"><i class="far fa-thumbs-up"></i>Like</span>
-                        <div class="b-section-footer__sub-block">
-                            <div class="sub-block">
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_1.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_2.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_3.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_4.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_4.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_3.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_2.png" alt="facebook user">
-                                </div>
-                                <div class="sub-block__img">
-                                    <img class="sub-block-img" src="images/social_users/social_user_1.png" alt="facebook user">
-                                </div>
-                            </div>
-                        </div>
-                        <span class="b-section-footer__bottom-text">facebook Social plugin</span>
-                    </div>
-                </div>
-                <div class="b-section-footer__item">
-                    <h2 class="b-section-footer__title">FROM TWITTER</h2>
-                    <div class="b-section-footer__item-content">
-                        <div class="b-item-content">
-                            <div class="b-item-content__line">
-                                <i class="fab fa-twitter b-item-content__icon"></i>
-                                <div class="b-item-content__text">
-                                    Lorem Ipsum is simply dummy text of
-                                    the printing and <span class="b-item-content_color_blue">typesetting industry.</span>
-                                    <span class="b-item-content_color_blue">Lorem Ispum</span> has been the
-                                </div>
-                            </div>
-                            <div class="b-item-content__line">
-                                <i class="fab fa-twitter b-item-content__icon"></i>
-                                <div class="b-item-content__text">
-                                    Lorem Ipsum is simply dummy text of
-                                    the printing and <span class="b-item-content_color_blue">typesetting industry.</span>
-                                    <span class="b-item-content_color_blue">Lorem Ispum</span> has been the
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="b-section-footer__item">
+                                <h2 class="b-section-footer__title">FACEBOOK</h2>
+                                <div class="b-section-footer__content">
+                                    <h2 class="b-section-footer__title b-section-footer_font-family">20000 Members</h2>
+                                    <span class="b-section-footer__btn-like"><i class="far fa-thumbs-up"></i>Like</span>
+                                    <div class="b-section-footer__sub-block">
+                                        <div class="sub-block">
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_1.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_2.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_3.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_4.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_4.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_3.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_2.png"
+                                                     alt="facebook user">
+                                            </div>
+                                            <div class="sub-block__img">
+                                                <img class="sub-block-img" src="images/social_users/social_user_1.png"
+                                                     alt="facebook user">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <span class="b-section-footer__bottom-text">facebook Social plugin</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="b-section-footer__item">
-                    <h2 class="b-section-footer__title">INFORMATION</h2>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">Sed ultrices purus non.</span>
-                    </div>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">sodales sodales.</span>
-                    </div>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">Curabitur pretium dui vitae.</span>
-                    </div>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">Donec gravida mi in nisl</span>
-                    </div>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">faucibus leo condimentum.</span>
-                    </div>
-                    <div class="b-content-info">
-                        <i class="fas fa-angle-right b-content-info__icon"></i>
-                        <span class="b-content-info__title">Donec et lorem suscipit</span>
-                    </div>
-                </div>
-                <div class="b-section-footer__item b-section-footer_margin-right">
-                    <h2 class="b-section-footer__title">CONTACT US</h2>
-                    <div class="b-contact-info">
-                        <span class="b-contact-info__text">Leo Store</span>
-                        <span class="b-contact-info__text">Leopards media</span>
-                        <span class="b-contact-info__text">KVM Rpad, 4590GH</span>
-                        <span class="b-contact-info__text">+1 489-8888-0099</span>
-                        <span class="b-contact-info__text">mail@email.com</span>
-                    </div>
-                    <div class="b-footer-social">
-                        <i class="fab fa-google-plus-g b-footer-social__icon"></i>
-                        <i class="fab fa-linkedin-in b-footer-social__icon"></i>
-                        <i class="fas fa-rss b-footer-social__icon"></i>
-                        <i class="fab fa-facebook-f b-footer-social__icon"></i>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="b-section-footer__item">
+                                <h2 class="b-section-footer__title">FROM TWITTER</h2>
+                                <div class="b-section-footer__item-content">
+                                    <div class="b-item-content">
+                                        <div class="b-item-content__line">
+                                            <i class="fab fa-twitter b-item-content__icon"></i>
+                                            <div class="b-item-content__text">
+                                                Lorem Ipsum is simply dummy text of
+                                                the printing and <span class="b-item-content_color_blue">typesetting industry.</span>
+                                                <span class="b-item-content_color_blue">Lorem Ispum</span> has been the
+                                            </div>
+                                        </div>
+                                        <div class="b-item-content__line">
+                                            <i class="fab fa-twitter b-item-content__icon"></i>
+                                            <div class="b-item-content__text">
+                                                Lorem Ipsum is simply dummy text of
+                                                the printing and <span class="b-item-content_color_blue">typesetting industry.</span>
+                                                <span class="b-item-content_color_blue">Lorem Ispum</span> has been the
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="b-section-footer__item">
+                                <h2 class="b-section-footer__title">INFORMATION</h2>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">Sed ultrices purus non.</span>
+                                </div>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">sodales sodales.</span>
+                                </div>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">Curabitur pretium dui vitae.</span>
+                                </div>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">Donec gravida mi in nisl</span>
+                                </div>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">faucibus leo condimentum.</span>
+                                </div>
+                                <div class="b-content-info">
+                                    <i class="fas fa-angle-right b-content-info__icon"></i>
+                                    <span class="b-content-info__title">Donec et lorem suscipit</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="b-section-footer__item">
+                                <h2 class="b-section-footer__title">CONTACT US</h2>
+                                <div class="b-contact-info">
+                                    <span class="b-contact-info__text">Leo Store</span>
+                                    <span class="b-contact-info__text">Leopards media</span>
+                                    <span class="b-contact-info__text">KVM Rpad, 4590GH</span>
+                                    <span class="b-contact-info__text">+1 489-8888-0099</span>
+                                    <span class="b-contact-info__text">mail@email.com</span>
+                                </div>
+                                <div class="b-footer-social">
+                                    <i class="fab fa-google-plus-g b-footer-social__icon"></i>
+                                    <i class="fab fa-linkedin-in b-footer-social__icon"></i>
+                                    <i class="fas fa-rss b-footer-social__icon"></i>
+                                    <i class="fab fa-facebook-f b-footer-social__icon"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="b-footer__line-bottom">
-           <div class="b-line__item b-footer__line-bottom_style">&#169; Copyright 2013 Css Author, All Rights Reserved.</div>
-            <ul class="b-nav">
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link b-footer__line-bottom_style">About Us</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string b-footer__line-bottom_style">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link b-footer__line-bottom_style">Delivery & Returns</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string b-footer__line-bottom_style">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link b-footer__line-bottom_style">Terms & Conditions</a>
-                </li>
-                <li class="b-nav__item">
-                    <span class="b-nav__string b-footer__line-bottom_style">|</span>
-                </li>
-                <li class="b-nav__item">
-                    <a href="#" class="b-nav__link b-footer__line-bottom_style">Contact Us</a>
-                </li>
-            </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="b-line__item b-footer__line-bottom_style">&#169; Copyright 2013 Css Author, All
+                            Rights Reserved.
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <ul class="b-nav">
+                            <li class="b-nav__item">
+                                <a href="#" class="b-nav__link b-footer__line-bottom_style">About Us</a>
+                            </li>
+                            <li class="b-nav__item">
+                                <span class="b-nav__string b-footer__line-bottom_style">|</span>
+                            </li>
+                            <li class="b-nav__item">
+                                <a href="#" class="b-nav__link b-footer__line-bottom_style">Delivery & Returns</a>
+                            </li>
+                            <li class="b-nav__item">
+                                <span class="b-nav__string b-footer__line-bottom_style">|</span>
+                            </li>
+                            <li class="b-nav__item">
+                                <a href="#" class="b-nav__link b-footer__line-bottom_style">Terms & Conditions</a>
+                            </li>
+                            <li class="b-nav__item">
+                                <span class="b-nav__string b-footer__line-bottom_style">|</span>
+                            </li>
+                            <li class="b-nav__item">
+                                <a href="#" class="b-nav__link b-footer__line-bottom_style">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
