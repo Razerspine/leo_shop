@@ -67,10 +67,6 @@
   color: @dark_gray;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .b-page {
   width: 100%;
   height: auto;
@@ -376,6 +372,7 @@
     font-size: 18px;
     font-family: @font_regular;
     color: @dark_gray;
+    text-align: center;
   }
   &__item-row {
     width: 100%;
@@ -430,6 +427,12 @@
       width: 35%;
       margin: 0 auto;
     }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .b-nav {
+    text-align: center;
   }
 }
 

@@ -19,9 +19,6 @@
   font-weight: normal;
   font-style: normal;
 }
-* {
-  outline: 1px solid red;
-}
 .b-page {
   width: 100%;
   height: auto;
@@ -325,6 +322,7 @@
   font-size: 18px;
   font-family: open_sansregular, sans-serif;
   color: #635f57;
+  text-align: center;
 }
 .b-main__item-row {
   width: 100%;
@@ -387,6 +385,11 @@
   display: block;
   width: 35%;
   margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .b-nav {
+    text-align: center;
+  }
 }
 .b-items {
   width: 100%;
