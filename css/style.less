@@ -108,7 +108,7 @@
   &__item {
     display: inline-block;
     font-family: @font_regular;
-    font-size: 13px;
+    font-size: 14px;
     color: #bff2ff;
     position: relative;
     &_color {
@@ -121,8 +121,8 @@
     font-weight: bolder;
     vertical-align: -1px;
   }
-  &_margin_right {
-    margin-right: 2%;
+  &_margin {
+    margin: 0 8px 0 8px;
   }
 }
 
@@ -155,13 +155,14 @@
   &__item {
     display: inline-block;
     width: auto;
-    margin-left: 3%;
+    margin: 0 8px 0 8px;
   }
   &__link {
     text-decoration: none;
     font-family: @font_regular;
-    font-size: 13px;
+    font-size: 14px;
     color: @white;
+    padding: 0 8px 0 8px;
   }
   &__string {
     font-size: 13px;
@@ -206,7 +207,7 @@
     font-family: @font_bold;
     font-size: 14px;
     color: @light_gray;
-    margin-right: 15px;
+    margin: 0 8px 0 8px;
   }
 }
 
@@ -225,7 +226,8 @@
     }
   }
   .fa-search {
-    margin-left: -25px;
+    position: relative;
+    left: -25px;
     color: @light_gray;
     cursor: pointer;
     font-size: 16px;
@@ -311,6 +313,7 @@
       }
       .fa-angle-left {
         line-height: 70px;
+        margin-right: 4px;
       }
     }
     .b-button__next {
@@ -323,6 +326,7 @@
       }
       .fa-angle-right {
         line-height: 70px;
+        margin-left: 4px;
       }
     }
   }
@@ -437,6 +441,14 @@
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .b-main {
+    &__item {
+      width: 30%;
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
   .b-nav {
     text-align: center;
@@ -463,12 +475,16 @@
 }
 
 @media screen and (max-width: 500px) {
+
   .b-slider {
     height: 230px;
     .b-img {
       &_width {
         width: 170%;
       }
+    }
+    .b-button-index {
+      display: none;
     }
   }
   .b-line-footer {
@@ -482,6 +498,36 @@
   }
   .b-content-info__icon {
     float: left;
+  }
+  .b-top-menu__search {
+    width: 100%;
+  }
+
+  .b-search {
+    display: block;
+    margin-left: 20px;
+    &__input {
+      box-sizing: border-box;
+      width: 200px;
+      height: 30px;
+      margin: 10px auto;
+      padding: 4px;
+    }
+    .fa-search {
+      line-height: 30px;
+      left: -30px;
+    }
+  }
+  .b-main {
+    &__item {
+      width: 240px;
+    }
+  }
+  .b-content__aside {
+    .b-aside {
+      width: 260px;
+      padding: 10px;
+    }
   }
 }
 
@@ -859,7 +905,7 @@
     font-size: 15px;
     color: #39a0b9;
     background-color: @white;
-    margin-right: 5px;
+    margin: 0 3px 0 3px;
     border-radius: 100%;
     width: 35px;
     height: 35px;

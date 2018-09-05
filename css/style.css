@@ -50,7 +50,7 @@
 .b-line__item {
   display: inline-block;
   font-family: open_sansregular, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #bff2ff;
   position: relative;
 }
@@ -63,8 +63,8 @@
   font-weight: bolder;
   vertical-align: -1px;
 }
-.b-line_margin_right {
-  margin-right: 2%;
+.b-line_margin {
+  margin: 0 8px 0 8px;
 }
 .b-modal {
   width: auto;
@@ -95,13 +95,14 @@
 .b-nav__item {
   display: inline-block;
   width: auto;
-  margin-left: 3%;
+  margin: 0 8px 0 8px;
 }
 .b-nav__link {
   text-decoration: none;
   font-family: open_sansregular, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #ffffff;
+  padding: 0 8px 0 8px;
 }
 .b-nav__string {
   font-size: 13px;
@@ -144,7 +145,7 @@
   font-family: open_sansbold, OpenSans-Bold, sans-serif;
   font-size: 14px;
   color: #656565;
-  margin-right: 15px;
+  margin: 0 8px 0 8px;
 }
 .b-search {
   display: inline-block;
@@ -160,7 +161,8 @@
   display: none;
 }
 .b-search .fa-search {
-  margin-left: -25px;
+  position: relative;
+  left: -25px;
   color: #656565;
   cursor: pointer;
   font-size: 16px;
@@ -255,6 +257,7 @@
 }
 .b-slider__button .b-button__prev .fa-angle-left {
   line-height: 70px;
+  margin-right: 4px;
 }
 .b-slider__button .b-button__next {
   display: inline-block;
@@ -275,6 +278,7 @@
 }
 .b-slider__button .b-button__next .fa-angle-right {
   line-height: 70px;
+  margin-left: 4px;
 }
 .active {
   display: block;
@@ -389,6 +393,11 @@
   width: 35%;
   margin: 0 auto;
 }
+@media screen and (min-width: 1400px) {
+  .b-main__item {
+    width: 30%;
+  }
+}
 @media screen and (max-width: 992px) {
   .b-nav {
     text-align: center;
@@ -417,6 +426,9 @@
   .b-slider .b-img_width {
     width: 170%;
   }
+  .b-slider .b-button-index {
+    display: none;
+  }
   .b-line-footer__title {
     display: block !important;
     margin: 10px 0 10px 0 !important;
@@ -426,6 +438,31 @@
   }
   .b-content-info__icon {
     float: left;
+  }
+  .b-top-menu__search {
+    width: 100%;
+  }
+  .b-search {
+    display: block;
+    margin-left: 20px;
+  }
+  .b-search__input {
+    box-sizing: border-box;
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    padding: 4px;
+  }
+  .b-search .fa-search {
+    line-height: 30px;
+    left: -30px;
+  }
+  .b-main__item {
+    width: 240px;
+  }
+  .b-content__aside .b-aside {
+    width: 260px;
+    padding: 10px;
   }
 }
 .b-items {
@@ -796,7 +833,7 @@
   font-size: 15px;
   color: #39a0b9;
   background-color: #ffffff;
-  margin-right: 5px;
+  margin: 0 3px 0 3px;
   border-radius: 100%;
   width: 35px;
   height: 35px;
