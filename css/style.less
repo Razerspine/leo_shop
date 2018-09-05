@@ -490,6 +490,15 @@
       display: none;
     }
   }
+
+  .b-aside {
+    &__button {
+      .b-button {
+        width: 18px !important;
+        height: 18px !important;
+      }
+    }
+  }
   .b-line-footer {
     &__title {
       display: block !important;
@@ -524,6 +533,7 @@
   .b-main {
     &__item {
       width: 240px;
+      padding: 8px;
     }
   }
   .b-content__aside {
@@ -632,7 +642,7 @@
       border-radius: 100%;
       background-color: @green;
       cursor: pointer;
-      margin-right: 10px;
+      margin: 0 5px 0 5px;
       vertical-align: middle;
     }
     .js-active {

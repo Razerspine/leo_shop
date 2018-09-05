@@ -432,6 +432,10 @@
   .b-slider .b-button-index {
     display: none;
   }
+  .b-aside__button .b-button {
+    width: 18px !important;
+    height: 18px !important;
+  }
   .b-line-footer__title {
     display: block !important;
     margin: 10px 0 10px 0 !important;
@@ -462,6 +466,7 @@
   }
   .b-main__item {
     width: 240px;
+    padding: 8px;
   }
   .b-content__aside .b-aside {
     width: 260px;
@@ -565,7 +570,7 @@
   border-radius: 100%;
   background-color: #7db122;
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0 5px 0 5px;
   vertical-align: middle;
 }
 .b-aside__button .js-active {
