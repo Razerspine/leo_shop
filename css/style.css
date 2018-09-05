@@ -418,6 +418,9 @@
   .b-slider__button {
     display: none;
   }
+  .b-slider__button-index {
+    display: none;
+  }
 }
 @media screen and (max-width: 500px) {
   .b-slider {

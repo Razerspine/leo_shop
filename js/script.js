@@ -2,8 +2,9 @@ $(document).ready(function () {
 
     (function () {
 
-        $(".js-btn_next").click(function() {
+        var slider = $(".b-slider");
 
+        function next() {
             var slide = $(".js-slide");
             var currentImg = $(".active");
             var currentIndex = currentImg.index();
@@ -11,7 +12,6 @@ $(document).ready(function () {
             var nextImg = slide.eq(nextIndex);
             var lastImg = slide.eq(-1);
             var lastIndex = lastImg.index();
-
             var indexButton = $(".b-button-index");
             var buttonIndex1 = indexButton.eq(0);
             var buttonIndex2 = indexButton.eq(1);
@@ -48,16 +48,18 @@ $(document).ready(function () {
             } else {
                 nextImg.addClass("active");
             }
+        }
+
+        $(".js-btn_next").click(function() {
+            next();
         });
 
-        $(".js-btn_prev").click(function () {
-
+        function prev() {
             var slide = $(".js-slide");
             var currentSlide = $(".active");
             var currentIndex = currentSlide.index();
             var prevIndex = currentIndex  - 1;
             var prevSlide = slide.eq(prevIndex);
-
             var indexButton = $(".b-button-index");
             var buttonIndex1 = indexButton.eq(0);
             var buttonIndex2 = indexButton.eq(1);
@@ -89,6 +91,30 @@ $(document).ready(function () {
             if (currentIndex === slideIndex1) {
                 buttonIndex5.addClass("b-button-index_bg-color");
             }
+        }
+
+        $(".js-btn_prev").click(function () {
+            prev();
+        });
+
+        $(function() {
+
+            $(slider).swipe( {
+                swipeLeft:function() {
+                    prev();
+                },
+                threshold:0
+            });
+        });
+
+        $(function() {
+
+            $(slider).swipe( {
+                swipeRight:function() {
+                    next();
+                },
+                threshold:0
+            });
         });
     })();
 
